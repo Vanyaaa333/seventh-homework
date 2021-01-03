@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Вывод работы с классом легковых машин:");
         LandTransport lightTransportCharacteristics = new LandTransport(7.4 , 4);
-        Light audi = new Light(220,"audi a6",2,180,"купе",5,5);
+        Light audi = new Light(220,"audi a6",2,180,"купе", 5);
         audi.numbOfTraveledKmsAndPrintResult();
         System.out.println(audi.toString());
 

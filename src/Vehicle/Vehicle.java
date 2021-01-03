@@ -52,7 +52,8 @@ public class Vehicle {
                 "Максимальная скорость=" + maxSpeed+"км/ч"+
                 ", Марка=" + brand +
                 ", Вес=" + weight+"т" +
-                ", Мощность=" + getPowerOnKv()+"кВ";
+                ", Мощность в кВ=" + power +
+                ", Мощность в л.с.=" + getPowerOnKv()+"кВ";
     }
 
     public double getPowerOnKv(){
