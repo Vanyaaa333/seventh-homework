@@ -14,7 +14,7 @@ public class Civil extends Vehicle{
     }
 
     public void isCountOfPassengersPlaceEnough(){
-        System.out.println("Ввидете ,требуемое кол-во пассажирских мест:");
+        System.out.println("Введете ,требуемое кол-во пассажирских мест:");
         Scanner sc = new Scanner(System.in);
         int inputCountOfPassengersPlace = sc.nextInt();
         if(inputCountOfPassengersPlace<countOFPassengers){
